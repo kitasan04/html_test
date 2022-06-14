@@ -1,5 +1,5 @@
 let intervalId;
-let image = document.getElementById('id1');
+let image = document.getElementById('img1');
 image.onclick = changeImage;
 
 function changeImage(){
@@ -17,10 +17,10 @@ function changeImage(){
     if(image.style.opacity <= 0){
       clearInterval(intervalId);
       //画像を交換
-      if(image.src === 'images/浅草/7904.jpg'){
-        image.src = 'images/浅草/kaminarimon.jpg';
+      if(image.src === 'mysite/images/浅草/7904.jpg'){
+        image.src = 'mysite/images/浅草/kaminarimon.jpg';
       }else{
-        image.src = 'images/浅草/7904.jpg';
+        image.src = 'mysite/images/浅草/7904.jpg';
       }
 
       opacityInt = image.style.opacity * 100;
