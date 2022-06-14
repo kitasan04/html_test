@@ -17,10 +17,10 @@ function changeImage(){
     if(image.style.opacity <= 0){
       clearInterval(intervalId);
       //画像を交換
-      if(image.src === 'mysite/images/浅草/7904.jpg'){
-        image.src = 'mysite/images/浅草/kaminarimon.jpg';
+      if(image.src === 'images/浅草/7904.jpg'){
+        image.src = 'images/浅草/kaminarimon.jpg';
       }else{
-        image.src = 'mysite/images/浅草/7904.jpg';
+        image.src = 'images/浅草/7904.jpg';
       }
 
       opacityInt = image.style.opacity * 100;
