@@ -1,0 +1,32 @@
+h1{
+    color: green;
+    border-bottom: 2px solid blue;
+    text-align: center;
+}
+
+.chimei{
+  padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    border-left: solid 10px #ffc06e;
+}
+
+#box {
+    width: 200px;
+    height: 215px;
+    border: 1px solid gray;
+    background-color: rgb(210, 232, 247);
+    box-sizing: border-box;
+  }
+
+  #box li {
+    margin-top: 2px;
+    margin-left: 10px;
+  }
+  #box p{
+      margin-bottom:15px;
+      margin-top:5px;
+      margin-left: 24px;
+      font-size: 24px;
+      
+  }
